@@ -12,7 +12,9 @@ body{
 	
 	    
 }
-
+#nav-bar{
+	margin-top:20px;
+}
 #content{
     
     font-size: 20px;
