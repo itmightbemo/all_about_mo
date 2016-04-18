@@ -1,0 +1,62 @@
+
+body{  
+    
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+        
+    color: white;
+    background-image: url("test_pic_one.jpg");
+    background-position: left;
+    background-size: 200%;
+	background-attachment: fixed;
+	
+	    
+}
+
+#content{
+    
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 5%;
+    margin-bottom: 4%;
+    letter-spacing: 70;
+    color: white;
+    text-indent: 70;
+    
+}
+
+a{  
+    
+    border-bottom: 10px ;
+    letter-spacing: 50;
+    font-size: 20px; 
+    text-decoration: none;
+    color:white;
+    text-decoration: none;
+    text-indent: 50px;
+}
+
+button{
+       
+    display: inline-block;
+    background: none;
+    border: none;
+    border-color: white;
+    font-size: 20px;
+    font-family: inherit;
+    color: white;
+    letter-spacing: 30;
+    text-indent: 30;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+.info{
+	overflow:scroll;
+	overflow-x: hidden;
+	overflow-y: hidden; 
+    margin-top: 5%;
+    font-size: 20;
+	text-align: center;
+    
+}
