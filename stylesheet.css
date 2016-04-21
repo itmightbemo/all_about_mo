@@ -14,6 +14,7 @@ body{
 }
 #picture{
 	margin-bottom: 5%;
+	opacity: 0.2;
 }
 #about{
 	font-size:20px;
