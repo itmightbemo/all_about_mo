@@ -29,8 +29,8 @@ body{
 	margin-top: 10%;
 	margin-bottom: 20%;
 }
-.a:hover{
-	color:blue;
+#nav-bar .a:hover {
+	opacity:0.5;
 }
 #content{
     
