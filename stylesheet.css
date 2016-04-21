@@ -6,8 +6,8 @@ body{
         
     color: white;
     background-image: url("test_pic_one.jpg");
-    background-position: center;
-    background-size: 150%;
+    background-position: left;
+    background-size: 200%;
 	background-attachment: fixed;
 	
 	    
