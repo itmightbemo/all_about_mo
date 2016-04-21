@@ -29,8 +29,8 @@ body{
 	margin-top: 10%;
 	margin-bottom: 20%;
 }
-#navbar:hover{
-	color:grey;
+.a:hover{
+	color:blue;
 }
 #content{
     
