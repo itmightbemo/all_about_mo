@@ -16,7 +16,8 @@ body{
 	margin-bottom: 5%;
 }
 #about{
-	text-align:center;	
+	text-align:center;
+	display:box;
 }
 #nav-bar{
 	font-size: 15px;
