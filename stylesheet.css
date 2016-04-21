@@ -24,10 +24,16 @@ body{
 	
 }
 #nav-bar{
+	opacity:1.0;
+	color:white;
 	font-size: 15px;
 	margin:0 auto;
 	margin-top: 10%;
 	margin-bottom: 20%;
+	-ms-transition:color .2s;
+	-moz-transition:color .2s;
+	-webkit-transition:color 2s;
+	transition:color .2s;
 }
 #nav-bar .link:hover {
 	opacity:0.5;
