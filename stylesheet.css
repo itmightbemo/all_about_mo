@@ -30,13 +30,13 @@ body{
 	margin:0 auto;
 	margin-top: 10%;
 	margin-bottom: 20%;
-	-ms-transition:color .2s;
-	-moz-transition:color .2s;
-	-webkit-transition:color 2s;
-	transition:color .2s;
+	-ms-transition: .5s;
+	-moz-transition: .5s;
+	-webkit-transition: 5s;
+	transition: .5s;
 }
 #nav-bar .link:hover {
-	opacity:0.5;
+	color: gray;
 }
 #content{
     
