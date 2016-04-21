@@ -100,14 +100,15 @@
         I have worked on projects with different types of software so i usually learn on the fly to save time
         
         Here's a robot
+        </div>
         <div id="picture1">
         <img src="Robo.png" style="display:none;">
         <p></p><br>
       </div>
         <script>
       $(document).ready(function(){
-          $(".info").click(function(){
-              $("#picture1").slideDown();
+          $("#info").click(function(){
+              $("#picture1").slideToggle();
           });
       });
       </script>
@@ -115,6 +116,6 @@
           <footer>
               contact mcduffuntimely@gmail.com for information and enquiries 
           </footer>
-      </div>
+      
   </body>
 </html>
