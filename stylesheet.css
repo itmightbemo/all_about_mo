@@ -5,12 +5,15 @@ body{
     text-align: center;
         
     color: white;
-    background-image: url("test_pic_one.jpg");
-    background-position: left;
+    background-image: url("thisis.jpg");
+    background-position: center;
     background-size: 200%;
 	background-attachment: fixed;
 	
 	    
+}
+#space{
+	
 }
 #nav-bar{
 	margin:0 auto;
