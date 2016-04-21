@@ -29,7 +29,7 @@ body{
 	margin-top: 10%;
 	margin-bottom: 20%;
 }
-#nav-bar .a:hover {
+#nav-bar .link:hover {
 	opacity:0.5;
 }
 #content{
