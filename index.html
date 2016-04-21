@@ -1,9 +1,10 @@
 <!doctype html5>
 <html>
   <head>
-      <!-- js script link-->
-      <script type="text/javascript" src="scriptsheet.js"></script>
+      <!-- js script link>
+      <script type="text/javascript" src="scriptsheet.js"></script-->
       
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
       <!--google fonts api link-->
       <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Raleway:400,300' rel='stylesheet' type='text/css'>
       
@@ -103,7 +104,13 @@
         <img src="Robo.png">
         <p></p><br>
       </div>
-        
+        <script>
+      $(document).ready(function(){
+          $(".info").click(function(){
+              $("#desc").hide();
+          });
+      });
+      </script>
         </p>
           <footer>
               contact mcduffuntimely@gmail.com for information and enquiries 
