@@ -12,12 +12,12 @@ body{
 	
 	    
 }
-#picture .pic{
+#picture{
 	transition: all 0.3s ease-in-out;
 	margin-bottom: 5%;
 	opacity: 0.7;
 }
-#picture .pic:hover{
+#picture:hover{
 	opacity:1.0;
 	transform: scale(1.2);;
 	
