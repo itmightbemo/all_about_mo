@@ -1,12 +1,6 @@
 @keyframes move{
-	from{
-		background-position:left;
-			
-	}
-	to{
-		background-position:right;
-	
-	}
+	from{background-position:left;}
+	to{background-position:right;}
 }
 
 body{  
@@ -18,28 +12,21 @@ body{
     background-image: url("test_pic_one.jpg");
     background-position: left;
     background-size: 200%;
-	background-attachment: fixed;
+background-attachment: fixed;
 	animation-name:move;
 	animation-duration:200s;
 	animation-fill-mode: forwards;
 }
 
 #picture{
-	transition: all 0.3s ease-in-out;
-	margin-bottom: 5%;
-	opacity: 0.7;
+	transition: all 0.3s ease-in-out; margin-bottom: 5%; opacity: 0.7;
 }
-#picture:hover{
-	opacity:1.0;
-	transform: scale(1.05);;
-	
-}
+#picture:hover{opacity:1.0; transform: scale(1.05);}
 #about{
 	font-size:20px;
 	text-align:center;
 	display:box;
 	opacity:0.8;
-	
 }
 #nav-bar{
 	opacity:1.0;
@@ -50,10 +37,9 @@ body{
 	margin-bottom: 20%;
 	transition: all 0.5s ease-in-out;
 }
-#nav-bar .link:hover {
-	opacity:0.7;
-	font-size: 17px;
-}
+#nav-bar .link1:hover {opacity:0.7;font-size: 17px;}
+#nav-bar .link2:hover {opacity:0.7;font-size: 17px;}
+#nav-bar .link3:hover {opacity:0.7;font-size: 17px;}
 #content{
     
     font-size: 20px;
