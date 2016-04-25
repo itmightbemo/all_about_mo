@@ -20,7 +20,7 @@ body{
     background-size: 200%;
 	background-attachment: fixed;
 	animation-name:move;
-	animation-duration:120s;
+	animation-duration:200s;
 	animation-fill-mode: forwards;
 }
 
