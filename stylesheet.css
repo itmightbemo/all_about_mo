@@ -1,6 +1,16 @@
 @keyframes move{
-	from{background-position:left;}
-	to{background-position:right;}
+	from{
+		background-position:left;
+		background-image:url("test_pic_one.jpg");	
+	}
+	to{
+		background-position:right;
+		background-image:url("dis1.png");
+	}
+}
+@keyframes change{
+	from{background-image:url("test_pic_one.jpg");}
+	to{background-image:url("dis1.png");}
 }
 body{  
     
@@ -13,8 +23,9 @@ body{
     background-size: 200%;
 	background-attachment: fixed;
 	animation-name:move;
-	animation-duration:120s;
+	animation-duration:140s;
 	animation-fill-mode: forwards;
+	
 	    
 }
 
