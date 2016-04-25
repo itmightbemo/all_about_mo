@@ -1,6 +1,6 @@
 @keyframes move{
-	from{background position:left;}
-	to{background position:right;}
+	from{background-position:left;}
+	to{background-position:right;}
 }
 body{  
     
