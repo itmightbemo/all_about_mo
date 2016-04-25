@@ -1,4 +1,7 @@
-
+@keyframes move{
+	from{background position:left;}
+	to{background position:right;}
+}
 body{  
     
     font-family: 'Raleway', sans-serif;
@@ -9,7 +12,8 @@ body{
     background-position: left;
     background-size: 200%;
 	background-attachment: fixed;
-	
+	animation-name:move;
+	animation-duration:10s;
 	    
 }
 #picture{
