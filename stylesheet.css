@@ -52,6 +52,7 @@ body{
 }
 #nav-bar .link:hover {
 	opacity:0.7;
+	font-size: 17px;
 }
 #content{
     
