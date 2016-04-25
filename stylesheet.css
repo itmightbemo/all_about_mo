@@ -13,9 +13,11 @@ body{
     background-size: 200%;
 	background-attachment: fixed;
 	animation-name:move;
-	animation-duration:10s;
+	animation-duration:60s;
+	animation-fill-mode: forwards;
 	    
 }
+
 #picture{
 	transition: all 0.3s ease-in-out;
 	margin-bottom: 5%;
