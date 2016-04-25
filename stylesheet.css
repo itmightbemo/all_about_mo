@@ -48,7 +48,7 @@ body{
 	margin:0 auto;
 	margin-top: 10%;
 	margin-bottom: 20%;
-	transition: all 0.5s ease;
+	transition: all 0.5s ease-in-out;
 }
 #nav-bar .link:hover {
 	opacity:0.7;
