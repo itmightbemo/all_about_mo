@@ -8,10 +8,7 @@
 		background-image:url("dis1.png");
 	}
 }
-@keyframes change{
-	from{background-image:url("test_pic_one.jpg");}
-	to{background-image:url("dis1.png");}
-}
+
 body{  
     
     font-family: 'Raleway', sans-serif;
@@ -23,7 +20,7 @@ body{
     background-size: 200%;
 	background-attachment: fixed;
 	animation-name:move;
-	animation-duration:10s;
+	animation-duration:120s;
 	animation-fill-mode: forwards;
 	
 	    
