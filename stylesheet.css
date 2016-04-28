@@ -41,7 +41,7 @@ div.nav-bar table{
 	margin-bottom: 20%;
 	transition: all 0.9s ease-in-out;
 }
-div.nav-bar table #link:hover{
+div.nav-bar table .link:hover{
 	font-size:25px; opacity:0.8;	
 }
 #content{
