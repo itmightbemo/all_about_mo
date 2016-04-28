@@ -31,7 +31,7 @@ p{
 	display:box;
 	opacity:0.8;
 }
-div.nav-bar table{
+div.nav-bar table .link{
 	
 	opacity:1.0;
 	color:white;
@@ -42,7 +42,7 @@ div.nav-bar table{
 	transition: all 0.9s ease-in-out;
 }
 div.nav-bar table .link:hover{
-	font-size:25px; opacity:0.8;	
+	transform:scale(1.1); opacity:0.8;	
 }
 #content{
     
