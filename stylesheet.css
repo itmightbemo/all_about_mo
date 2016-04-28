@@ -39,10 +39,10 @@ div.nav-bar table{
 	margin:0 auto;
 	margin-top: 10%;
 	margin-bottom: 20%;
-	transition: all 0.5s ease-in-out;
+	transition: all 0.9s ease-in-out;
 }
-div.nav-bar table #link1:hover{
-	font-size:21px; opacity:0.8;	
+div.nav-bar table #link:hover{
+	font-size:25px; opacity:0.8;	
 }
 #content{
     
