@@ -17,7 +17,9 @@ background-attachment: fixed;
 	animation-duration:200s;
 	animation-fill-mode: forwards;
 }
-
+p{
+	font-size:15px;
+}
 #picture{
 	transition: all 0.3s ease-in-out; margin-bottom: 5%; opacity: 0.7;
 	font-size:20px;
