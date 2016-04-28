@@ -19,10 +19,10 @@ background-attachment: fixed;
 }
 p{
 	font-size:15px;
+	letter-spacing:1;
 }
 #picture{
 	transition: all 0.3s ease-in-out; margin-bottom: 5%; opacity: 0.7;
-	font-size:20px;
 }
 #picture:hover{opacity:1.0; transform: scale(1.05);}
 #about{
