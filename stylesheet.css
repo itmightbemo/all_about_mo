@@ -1,29 +1,11 @@
-@keyframes move{
-	from{background-position:left;}
-	to{background-position:right;}
-}
-
+@keyframes move{from{background-position:left;}to{background-position:right;}}
 body{  
-    
-    font-family: 'Raleway', sans-serif;
-    text-align: center;
-        
-    color: white;
-    background-image: url("test_pic_one.jpg");
-    background-position: left;
-    background-size: 200%;
-background-attachment: fixed;
 	animation-name:move;
 	animation-duration:200s;
 	animation-fill-mode: forwards;
 }
-p{
-	font-size:15px;
-	letter-spacing:1;
-}
-#picture{
-	transition: all 0.3s ease-in-out; margin-bottom: 5%; opacity: 0.7;
-}
+p{font-size:15px;letter-spacing:1;}
+#picture{transition: all 0.3s ease-in-out; margin-bottom: 5%; opacity: 0.7;}
 #picture:hover{opacity:1.0; transform: scale(1.05);}
 #about{
 	font-size:20px;
@@ -41,7 +23,6 @@ div.nav-bar table{
 	margin-bottom: 20%;
 }
 #content{
-    
     font-size: 20px;
     font-family: 'Raleway', sans-serif;
     margin-top: 5%;
@@ -49,11 +30,9 @@ div.nav-bar table{
     letter-spacing: 70;
     color: white;
     text-indent: 70;
-    
 }
 
-a{  
-    
+a{ 
     border-bottom: 10px ;
     letter-spacing: 50;
     font-size: 20px; 
@@ -62,10 +41,7 @@ a{
     text-decoration: none;
     transition:all 0.3s ease;
 }
-a:hover{
-	opacity:0.8; font-size:24px;
-}
-
+a:hover{opacity:0.8; font-size:24px;}
 .info{
 	overflow:scroll;
 	overflow-x: hidden;
@@ -73,5 +49,4 @@ a:hover{
     margin-top: 5%;
     font-size: 20;
 	text-align: center;
-    
 }
