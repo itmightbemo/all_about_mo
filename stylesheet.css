@@ -1,7 +1,7 @@
 @keyframes move{from{background-position:left;}to{background-position:right;}}
 body{  
 	animation-name:move;
-	animation-duration:200s;
+	animation-duration:500s;
 	animation-fill-mode: forwards;
 }
 p{font-size:15px;letter-spacing:1;}
