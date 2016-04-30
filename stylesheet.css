@@ -2,8 +2,11 @@ body{
 	color:white;
 	font-family: 'Raleway', sans-serif;
 	background-size: cover;
-  	position: fixed;
 	background-image: url("test_pic_one.jpg");
+	background-position: left;
+        background-size: 200%;
+    	background-attachment: fixed;
+        text-align: center;
 	
 }
 p{font-size:15px;letter-spacing:1;}
