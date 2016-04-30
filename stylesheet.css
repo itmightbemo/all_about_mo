@@ -14,6 +14,7 @@ p{font-size:15px;letter-spacing:1;}
 	opacity:0.8;
 }
 div.nav-bar ul{
+	list-style-type:none;
 	opacity:1.0;
 	color:white;
 	font-size: 20px;
@@ -22,6 +23,7 @@ div.nav-bar ul{
 	margin-top: 10%;
 	margin-bottom: 10%;
 }
+
 #content{
     font-size: 20px;
     font-family: 'Raleway', sans-serif;
@@ -31,7 +33,9 @@ div.nav-bar ul{
     color: white;
     text-indent: 70;
 }
-
+li a{
+	display:inline;
+}
 a{ 
     border-bottom: 10px ;
     letter-spacing: 50;
