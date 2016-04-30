@@ -6,9 +6,9 @@ body{
 }
 p{font-size:15px;letter-spacing:1;}
 .pictures li img{
-	width:800;
+	width:800px;
 }
-.picturesli img{transition: all 0.3s ease-in-out; margin-bottom: 5%; opacity: 0.7;}
+.pictures li img{transition: all 0.3s ease-in-out; margin-bottom: 5%; opacity: 0.7;}
 .pictures li img:hover{opacity:1.0; transform: scale(1.03);}
 div.nav-bar ul{
 	list-style-type:none;
