@@ -5,6 +5,9 @@ body{
 	animation-fill-mode: forwards;
 }
 p{font-size:15px;letter-spacing:1;}
+.pictures ul{
+	list-style-type:none;
+}
 .pictures li img{
 	width:800px;
 }
