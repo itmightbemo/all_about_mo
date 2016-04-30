@@ -63,7 +63,7 @@ iframe{
 #desc{
 	
 }
-div #info p{
+#info{
 	overflow:scroll;
 	overflow-x: hidden;
 	overflow-y: hidden; 
@@ -72,7 +72,7 @@ div #info p{
 	font-size: 20;
 	text-align: center;
 }
-div #info footer{
-	font-size:25;
+footer{
+	font-size:16px;
 	letter-spacing:1;	
 }
