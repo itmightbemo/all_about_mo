@@ -5,11 +5,11 @@ body{
 	animation-fill-mode: forwards;
 }
 p{font-size:15px;letter-spacing:1;}
-#pictures{
+.pictures{
 	width:800;
 }
-#pictures{transition: all 0.3s ease-in-out; margin-bottom: 5%; opacity: 0.7;}
-#pictures:hover{opacity:1.0; transform: scale(1.03);}
+.pictures{transition: all 0.3s ease-in-out; margin-bottom: 5%; opacity: 0.7;}
+.pictures:hover{opacity:1.0; transform: scale(1.03);}
 div.nav-bar ul{
 	list-style-type:none;
 	opacity:1.0;
