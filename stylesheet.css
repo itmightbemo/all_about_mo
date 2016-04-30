@@ -4,7 +4,9 @@
 	to { 
 		-webkit-transform: translateX(-550px);
 	}}
-body{  
+body{
+	color:white;
+	font-family: 'Raleway', sans-serif;
 	animation-name:move;
 	animation-duration:10s;
 	animation-timing-function:linear;
