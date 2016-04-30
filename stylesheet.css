@@ -1,21 +1,9 @@
-@keyframes move{from {
-		-webkit-transform: translateX(0);
-	}
-	to { 
-		-webkit-transform: translateX(-550px);
-	}}
-.bg{
-	background-size: cover;
-  	position: fixed;
-	background-image: url("test_pic_one.jpg");
-	animation-name:move;
-	animation-duration:10s;
-	animation-timing-function:linear;
-	animation-iteration-count: infinite;
-}
 body{
 	color:white;
 	font-family: 'Raleway', sans-serif;
+	background-size: cover;
+  	position: fixed;
+	background-image: url("test_pic_one.jpg");
 	
 }
 p{font-size:15px;letter-spacing:1;}
