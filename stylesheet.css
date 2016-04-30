@@ -5,7 +5,7 @@ body{
 	animation-fill-mode: forwards;
 }
 p{font-size:15px;letter-spacing:1;}
-div.items ul{
+div .items ul.pictures{
 	list-style-type:none;
 }
 .pictures li img{
