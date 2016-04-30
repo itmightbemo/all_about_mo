@@ -7,12 +7,6 @@ body{
 p{font-size:15px;letter-spacing:1;}
 #picture{transition: all 0.3s ease-in-out; margin-bottom: 5%; opacity: 0.7;}
 #picture:hover{opacity:1.0; transform: scale(1.03);}
-#about{
-	font-size:20px;
-	text-align:center;
-	display:box;
-	opacity:0.8;
-}
 div.nav-bar ul{
 	list-style-type:none;
 	opacity:1.0;
@@ -38,7 +32,9 @@ a{
 a:hover{opacity:0.8; font-size:24px;}
 #about{
 	letter-spacing:0;
-	font-size:15px;
+	font-size:20px;
+	text-align:center;
+	opacity:0.8;
 }
 #content{
     font-size: 20px;
