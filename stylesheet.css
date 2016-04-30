@@ -41,7 +41,7 @@ a{
     text-decoration: none;
     transition:all 0.3s ease;
 }
-a:hover{opacity:0.8; font-size:24px;}
+a:hover{opacity:0.8; text-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
 #about{
 	letter-spacing:0;
 	font-size:20px;
