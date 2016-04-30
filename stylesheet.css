@@ -5,6 +5,8 @@
 		-webkit-transform: translateX(-550px);
 	}}
 .bg{
+	background-size: cover;
+  	position: fixed;
 	background-image: url("test_pic_one.jpg");
 	animation-name:move;
 	animation-duration:10s;
