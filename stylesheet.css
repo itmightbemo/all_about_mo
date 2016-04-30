@@ -13,14 +13,14 @@ p{font-size:15px;letter-spacing:1;}
 	display:box;
 	opacity:0.8;
 }
-div.nav-bar table{
+div.nav-bar ul{
 	opacity:1.0;
 	color:white;
 	font-size: 20px;
 	margin-left: auto;
 	margin-right:auto;
 	margin-top: 10%;
-	margin-bottom: 20%;
+	margin-bottom: 10%;
 }
 #content{
     font-size: 20px;
