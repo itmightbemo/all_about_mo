@@ -46,8 +46,9 @@ a:hover{opacity:0.8; font-size:24px;}
     color: white;
     text-indent: 70;
 }
-#videos{
-	margin:0 auto;
+iframe{
+	margin-right:auto;
+	margin-left:auto;
 }
 .info{
 	overflow:scroll;
