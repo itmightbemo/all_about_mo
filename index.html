@@ -30,7 +30,12 @@
     
       </div>
       </div>
-      <div class="items" style="display:none;">
+      <script>
+          function showStufff() {
+            document.getElementByClassName("items").style.display = "block"
+          }
+        </script>
+      <div class="items" style="display:none;" onscroll="showStuff()">
         <p id="description">A collection of pictures work for various projects</p>
         <ul class="pictures" style="list-style-type: none;">
           <li><img src="noice.jpg"></li>
