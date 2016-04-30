@@ -46,9 +46,8 @@ a:hover{opacity:0.8; font-size:24px;}
     color: white;
     text-indent: 70;
 }
-#videos{
-	display:block;
-	text-align:center;
+#items{
+	display:none;
 }
 iframe{
 	margin-right:0 auto;
