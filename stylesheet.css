@@ -1,8 +1,14 @@
-@keyframes move{from{background-position:left;}to{background-position:right;}}
+@keyframes move{from {
+		-webkit-transform: translateX(0);
+	}
+	to { 
+		-webkit-transform: translateX(-550px);
+	}}
 body{  
 	animation-name:move;
-	animation-duration:500s;
-	animation-fill-mode: forwards;
+	animation-duration:10s;
+	animation-timing-function:linear;
+	animation-iteration-count: infinite;
 }
 p{font-size:15px;letter-spacing:1;}
 div .items ul{
