@@ -9,7 +9,12 @@
       <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Raleway:400,300' rel='stylesheet' type='text/css'>
       <title>Welcome to my Portfolio</title>
   </head>
-  <body>
+  <body onscroll="showStuff()>
+        <script>
+          function showStufff() {
+            document.getElementByClassName("items").style.display = "block"
+          }
+        </script>
     <div class="nav-bar">
       <ul> 
           <li><a href="https://soundcloud.com/isthismoshe/" class="link">Music..</li>
@@ -30,12 +35,8 @@
     
       </div>
       </div>
-      <script>
-          function showStufff() {
-            document.getElementByClassName("items").style.display = "block"
-          }
-        </script>
-      <div class="items" style="display:none;" onscroll="showStuff()">
+      
+      <div class="items" style="display:none;">
         <p id="description">A collection of pictures work for various projects</p>
         <ul class="pictures" style="list-style-type: none;">
           <li><img src="noice.jpg"></li>
