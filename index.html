@@ -14,7 +14,7 @@
     
     <div class="heading_bar">
     <div id="nav-bar">
-      <ul> 
+      <ul style="display:none"> 
           <li><a href="https://soundcloud.com/isthismoshe/" class="link">Music</li>
           <li><a href="http://thisisteam.blogspot.ie/" class="link"/>Blog</li>
           <li><a href="https://www.youtube.com/channel/UCH_OeGFJ9JjWlKZZe-g6ZCQ"/ class="link">Videos</a></li>
@@ -39,11 +39,10 @@
       </div>
       
       <div class="items" style="display:none">
-        
         <script>
         $(document).ready(function() {
           $("#content").click(function() {
-            $(".items").slideDown();
+            $(".items").slideDown("slow");
           });
         });
       </script>
