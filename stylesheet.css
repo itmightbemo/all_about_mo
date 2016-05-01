@@ -15,7 +15,7 @@ p{font-size:15px;letter-spacing:1;}
 .items ul{list-style-type:none;
 }
 .pictures li img{
-	max-width:800%;
+	max-width:100%;
 	box-shadow:0px 0px 0px;
 }
 .pictures li img{transition: all 0.3s ease-in-out; opacity: 0.7;}
