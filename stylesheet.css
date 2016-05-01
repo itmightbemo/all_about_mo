@@ -61,14 +61,15 @@ a:hover{opacity:0.8; text-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rg
 
 
 #about{
-	
+	text-shadow:2px 2px 5px rgba(148,148,148, 0.5);
 	letter-spacing:0;
 	font-size:20px;
 	text-align:center;
-	opacity:0.8;
+	opacity:0.5;
 	margin-bottom:10%;
 	height:50px;
 }
+#about;hover{opacity:1.0; text-shadow:0px 0px 5px rgba(148,148,148, 0.7);}
 #content{
 	width:100%;	
 	box-shadow: 0px 3px 5px rgba(148,148,148, 0.3);
