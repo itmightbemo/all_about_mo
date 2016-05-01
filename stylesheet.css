@@ -29,6 +29,7 @@ div.nav-bar{
 	box-shadow: 0px 0px 5px rgba(148,148,148, 0.8);
 }
 div.nav-bar ul{
+	height:10px;
 	list-style-type:none;
 	opacity:1.0;
 	font-size: 20px;
