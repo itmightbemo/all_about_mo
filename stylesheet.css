@@ -13,6 +13,10 @@ body{
 }
 p{font-size:15px;letter-spacing:1;}
 .items ul{list-style-type:none;
+display:inline-block;
+}
+.pictures{
+	margin:0 auto;
 }
 .pictures li img{
 	max-width:800px;
