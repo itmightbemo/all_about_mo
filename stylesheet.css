@@ -12,6 +12,7 @@ body{
 	
 }
 .heading_bar{
+	height:20px;
 	margin:0px;
 	background-color: gray;
 	width:100%;
