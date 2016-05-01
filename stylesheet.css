@@ -32,7 +32,7 @@ div#nav-bar{
 	transition:all 0.7s ease-in-out;
 }
 
-div#nav-bar:hover { height:40px; }
+div#nav-bar:hover { height:40px; box-shadow:0px 0px 8px rgba(148,148,148, 1.0); }
 div#nav-bar ul{
 	list-style-type:none;
 	opacity:1.0;
@@ -48,7 +48,7 @@ div#nav-bar ul{
 	display:inline;
 }
 a{ 
-	text-shadow: 0px 0px 5px rgba(148,148,148, 0.7);;
+	text-shadow: 0px 0px 5px rgba(148,148,148, 0.7);
     border-bottom: 10px ;
     letter-spacing: 40;
     font-size: 14px; 
@@ -79,7 +79,9 @@ a:hover{opacity:0.8; text-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rg
     letter-spacing: 100;
     color: black;
     text-indent: 70;
+    transition:all 0.7s ease-in-out;
 }
+#content:hover{ box-shadow:0px 0px 8px rgba(148,148,148, 1.0); }
 div.items{
 	box-shadow:0px -3px 2px rgba(148,148,148, 0.3);
 	width:100%;
