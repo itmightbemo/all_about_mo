@@ -11,14 +11,7 @@
       <title>Welcome to my Portfolio</title>
   </head>
   <body>
-    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
-     <script>
-        $(document).ready(function() {
-          $(".about").click(function() {
-            $(".items").slideDown("slow");
-          });
-        });
-      </script>
+    
     <div class="heading_bar">
     <div id="nav-bar">
       <ul> 
@@ -44,7 +37,16 @@
     
       </div>
       </div>
+      
       <div class="items" style="display:none">
+        <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+        <script>
+        $(document).ready(function() {
+          $(".about").click(function() {
+            $(".items").slideDown("slow");
+          });
+        });
+      </script>
         <p id="description">A collection of pictures work for various projects</p>
         <ul class="pictures" style="list-style-type: none;">
           <li><img src="noice.jpg"></li>
