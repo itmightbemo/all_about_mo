@@ -47,15 +47,15 @@
         <script>
         $(document).ready(function () {
           $("#info").hover(function () {
-              $(".items").slideToggle("slow");
+              $(".items").slideDown("slow");
             });
         });
       </script>
       
       <script>
       $(document).ready(function () {
-          $(".items").hover(function () {
-              $(".items").show();
+          $("buttons").click(function () {
+              $(".items").slideUp();
             });
         });
       </script>
