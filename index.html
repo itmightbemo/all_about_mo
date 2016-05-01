@@ -50,10 +50,16 @@
       <div class="items" style="display:none">
         <script>
         $(document).ready(function () {
-          $("#content").click(function () {
-            $(".items").slideDown("slow");
-            ("body").scrollTo(".items");
-          });
+          $("#content").click(
+            function () {
+              $(".items").slideDown("slow");
+            }
+            function(){
+              $("body").scrollTo(".items");
+            }
+             function(){
+              $(".items").slideUp("slow");
+            }
         });
       </script>
         <p id="description">A collection of pictures work for various projects</p>
