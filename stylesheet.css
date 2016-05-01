@@ -1,10 +1,10 @@
 body{
 	margin:0px;
 	padding:0px;
-	color:white;
+	color:black;
 	font-family: 'Raleway', sans-serif;
 	background-size: cover;
-	background-image: url("test_pic_one.jpg");
+	background-image: url("dis1.png");
 	background-position: left;
         background-size: 2140%;
     	background-attachment: fixed;
