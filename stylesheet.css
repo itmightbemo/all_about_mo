@@ -31,6 +31,7 @@ div.nav-bar ul{
 	margin-bottom: 10%;
 }
 .nav-bar ul li{
+	text-align:center;
 	display:inline;
 }
 a{ 
