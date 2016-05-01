@@ -54,13 +54,14 @@
           $("button").click(function () {
               $(".items").slideToggle("slow");
             });
-          $("button").click(funtion () {
-              $("button").text("Less");
-          });
         });
       </script>
       <script>
-        
+        $(document).ready(function () {
+          $("button").click(function () {
+              $("button").text("Less");
+            });
+        });
       </script>
         <p id="description">A collection of pictures work for various projects</p>
         <ul class="pictures" style="list-style-type: none;">
