@@ -30,12 +30,14 @@ div .items ul{
 .pictures li img{transition: all 0.3s ease-in-out; opacity: 0.7;}
 .pictures li img:hover{opacity:1.0; box-shadow:0 0px 8px 0 rgba(0, 0, 0, 0.2), 0 0px 20px 0 rgba(0, 0, 0, 0.19); }
 div.nav-bar{
+	padding:0px;
 	margin:0px;
 	background-color: gray;
 	width:100%;
 	box-shadow: 0px 0px 5px rgba(148,148,148, 0.8);
 }
 div.nav-bar ul{
+	padding:0px;
 	list-style-type:none;
 	opacity:1.0;
 	font-size: 20px;
