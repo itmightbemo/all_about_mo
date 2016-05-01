@@ -39,8 +39,7 @@ div.nav-bar ul{
 	margin-bottom: 10%;
 }
 .nav-bar ul li{
-	padding:0;
-	margin:0px;
+	padding-top:1px;
 	text-align:center;
 	display:inline;
 }
