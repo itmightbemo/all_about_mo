@@ -27,7 +27,7 @@ p{font-size:15px;letter-spacing:1;}
 }
 .pictures li img{transition: all 0.3s ease-in-out; opacity: 0.7;}
 .pictures li img:hover{opacity:1.0; box-shadow:0 0px 8px 0 rgba(0, 0, 0, 0.2), 0 0px 20px 0 rgba(0, 0, 0, 0.19); }
-#nav-bar{padding:0;margin:0px;background-color: white;width:100%;height:20px;box-shadow: 0px 0px 5px rgba(148,148,148, 0.8);transition:all 0.2s ease-in-out;}
+#nav-bar{padding:0;margin:0px;background-color: white;width:100%;height:1px;box-shadow: 0px 0px 5px rgba(148,148,148, 0.8);transition:all 0.2s ease-in-out;}
 #nav-bar:hover { height:40px; box-shadow:0px 0px 8px rgba(148,148,148, 1.0); }
 #nav-bar ul{list-style-type:none;opacity:1.0;font-size: 20px;margin-left: auto;margin-right:auto;padding-top:1px;margin-bottom: 10%;}
 #nav-bar ul li{padding-top:1px;text-align:center;display:inline;
