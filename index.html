@@ -52,10 +52,8 @@
         $(document).ready(function () {
           $("#content").click(function () {
               $(".items").slideUp("slow");
-            },
-            function () {
-              $("body").scrollTo(".pictures");
             });
+
         });
       </script>
         <p id="description">A collection of pictures work for various projects</p>
@@ -80,7 +78,13 @@
         <footer>
               contact moseseribo@gmail.com for information and enquiries
         </footer>
-   
+        <script>
+          $(document).ready(function (){
+            $(window).scroll(function(){
+              
+            })
+          });
+        </script>
      
       
   </body>
