@@ -12,8 +12,7 @@ body{
 	
 }
 p{font-size:15px;letter-spacing:1;}
-div .items ul{
-	list-style-type:none;
+.items ul{list-style-type:none;
 }
 .pictures li img{
 	max-width:800px;
@@ -21,58 +20,30 @@ div .items ul{
 }
 .pictures li img{transition: all 0.3s ease-in-out; opacity: 0.7;}
 .pictures li img:hover{opacity:1.0; box-shadow:0 0px 8px 0 rgba(0, 0, 0, 0.2), 0 0px 20px 0 rgba(0, 0, 0, 0.19); }
-div#nav-bar{
-	
-	padding:0;
-	margin:0px;
-	background-color: white;
-	width:100%;
-	height:20px;
-	box-shadow: 0px 0px 5px rgba(148,148,148, 0.8);
-	transition:all 0.7s ease-in-out;
+#nav-bar{padding:0;margin:0px;background-color: white;width:100%;height:20px;box-shadow: 0px 0px 5px rgba(148,148,148, 0.8);transition:all 0.7s ease-in-out;}
+#nav-bar:hover { height:40px; box-shadow:0px 0px 8px rgba(148,148,148, 1.0); }
+#nav-bar ul{list-style-type:none;opacity:1.0;font-size: 20px;margin-left: auto;margin-right:auto;padding-top:1px;margin-bottom: 10%;}
+#nav-bar ul li{padding-top:1px;text-align:center;display:inline;
 }
-
-div#nav-bar:hover { height:40px; box-shadow:0px 0px 8px rgba(148,148,148, 1.0); }
-div#nav-bar ul{
-	list-style-type:none;
-	opacity:1.0;
-	font-size: 20px;
-	margin-left: auto;
-	margin-right:auto;
-	padding-top:1px;
-	margin-bottom: 10%;
-}
-#nav-bar ul li{
-	padding-top:1px;
-	text-align:center;
-	display:inline;
-}
-a{ 
-	text-shadow: 0px 0px 5px rgba(148,148,148, 0.7);
+a{ text-shadow: 0px 0px 5px rgba(148,148,148, 0.7);
     border-bottom: 10px ;
     letter-spacing: 40;
     font-size: 14px; 
     text-decoration: none;
     color:black;
     text-decoration: none;
-    transition:all 0.3s ease-in-out;
-}
+    transition:all 0.3s ease-in-out;}
 a:hover{opacity:0.8; text-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
-
-
-#about{
-	transition:all 0.3s ease-in-out;
+#about{transition:all 0.3s ease-in-out;
 	text-shadow:2px 2px 5px rgba(148,148,148, 0.5);
 	letter-spacing:0;
 	font-size:20px;
 	text-align:center;
 	opacity:0.5;
 	margin-bottom:10%;
-	height:50px;
-}
+	height:50px;}
 #about:hover{opacity:1.0; text-shadow:0px 0px 5px rgba(148,148,148, 0.7);}
 #content{
-	
 	width:100%;	
 	box-shadow: 0px 3px 5px rgba(148,148,148, 0.3);
     font-size: 20px;
@@ -82,22 +53,9 @@ a:hover{opacity:0.8; text-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rg
     letter-spacing: 100;
     color: black;
     text-indent: 70;
-    transition:all 0.7s ease-in-out;
-   
-}
+    transition:all 0.7s ease-in-out;}
 #content:hover{box-shadow:0px 3px 8px rgba(148,148,148, 0.7); }
-div.items{
-	box-shadow:0px -3px 2px rgba(148,148,148, 0.3);
-	width:100%;
-	display:none;
-}
-iframe{
-	margin-right:0 auto;
-	margin-left:0 auto;
-}
-#desc{
-	
-}
+div.items{box-shadow:0px -3px 2px rgba(148,148,148, 0.3);width:100%;display:none;}
 #info{
 	opacity:0.5;
 	transition: all 0.3s ease-in-out;
