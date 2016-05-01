@@ -11,7 +11,7 @@ body{
         text-align: center;
 	
 }
-heading_bar{
+.heading_bar{
 	margin:0px;
 }
 p{font-size:15px;letter-spacing:1;}
