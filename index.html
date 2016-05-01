@@ -59,7 +59,11 @@
       <script>
         $(document).ready(function () {
           $("button").click(function () {
+            if($("button").text().is("Less")){
+              $("button").text("More");
+            }else{
               $("button").text("Less");
+            }
             });
         });
       </script>
