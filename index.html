@@ -1,7 +1,7 @@
 <!doctype html5>
 <html>
   <head>
-      <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+      
       <!--css3 stylesheet link-->
       <link rel="stylesheet" type="text/css" href="stylesheet.css">
       <!--meta-->
@@ -11,6 +11,14 @@
       <title>Welcome to my Portfolio</title>
   </head>
   <body>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+     <script>
+        $(document).ready(function() {
+          $(".about").click(function() {
+            $(".items").slideDown("slow");
+          });
+        });
+      </script>
     <div class="heading_bar">
     <div id="nav-bar">
       <ul> 
@@ -36,13 +44,6 @@
     
       </div>
       </div>
-      <script>
-        $(document).ready(function() {
-          $(".about").click(function() {
-            $(".items").slideDown("slow");
-          });
-        });
-      </script>
       <div class="items" style="display:none">
         <p id="description">A collection of pictures work for various projects</p>
         <ul class="pictures" style="list-style-type: none;">
