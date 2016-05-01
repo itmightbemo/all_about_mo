@@ -52,7 +52,10 @@
         $(document).ready(function () {
           $("#content").click(function () {
               $(".items").slideDown("slow");
-            }
+            },
+            function () {
+              $(".items").slideup("slow");
+            );
         });
       </script>
         <p id="description">A collection of pictures work for various projects</p>
@@ -74,18 +77,6 @@
          </p>
           
         </div>
-        <script>
-        $(document).ready(function () {
-          $("#info").hover(
-            function () {
-              $("#info").fadeIn();
-            },
-            function () {
-              $("#info").fadeOut();
-            }
-          );
-        });
-      </script>
         <footer>
               contact moseseribo@gmail.com for information and enquiries
         </footer>
