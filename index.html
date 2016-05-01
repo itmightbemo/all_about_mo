@@ -24,7 +24,7 @@
     <div class="section" id="content">
         Moses Eribo
     </div>
-    <div id="about">
+    <div id="about" style="display:none;">
       If I could, this entire section would be made up of lorem ipsum...<br>
       Greetings I am Mo an amateur designer, editor, and producer<br>
       I have worked on multiple projects for sometime with local groups and persons <br>and have familiarised myself in design and photography 
@@ -32,7 +32,15 @@
     
       </div>
       </div>
-      
+      <script>
+        $(document).ready(function() {
+          $(".section").click(function() {
+            $("#about").slideDown("slow");
+          });
+        });
+          
+        
+      </script>
       <div class="items">
         <p id="description">A collection of pictures work for various projects</p>
         <ul class="pictures" style="list-style-type: none;">
@@ -56,6 +64,8 @@
         <footer>
               contact moseseribo@gmail.com for information and enquiries
         </footer>
-   <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>     
+   <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js">
+     
+   </script>     
   </body>
 </html>
