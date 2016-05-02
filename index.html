@@ -23,9 +23,8 @@
         $(document).ready(function () {
           $("#nav-bar").hover(
             function () {
-              $("#ulist").fadeIn();
-            },function () {
-              $("#ulist").fadeOut();});
+              $("#ulist").slideToggle(1000,"swing");
+            });
         });
       </script>
     <div class="heading" id="title">
