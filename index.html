@@ -47,7 +47,9 @@
         <script>
         $(document).ready(function () {
           $("button").click(function () {
-              $(".items").slideToggle('700', "swing");
+              $(".items").slideToggle('700', "swing" function () {
+                $("button").text("Less");
+              });
             });
         });
       </script>
@@ -68,7 +70,7 @@
         <div id="info">
           <p>
           <br>
-          <button type="button"></button>
+          <button type="button">More</button>
           <br>
           <br>
           Experience with software such as Adobe Illustrator, Adobe After Effects, GIMP and Blender.<br>
