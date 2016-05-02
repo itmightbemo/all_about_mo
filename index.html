@@ -21,17 +21,12 @@
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
       <script>
         $(document).ready(function () {
-          $("#nav-bar").hover(
+          $("#nav-bar").hover(function () {
             if($("#navbar").css("height","40px")){
-              function () {
                 $("#ulist").fadeIn(200);
-              }
-              
-            }else{
-              function () {
-                $("#ulist").fadeOut(200);
-              });
-            }
+                
+            }else{$("#ulist").fadeOut(200);}
+          }
         });
       </script>
     <div class="heading" id="title">
