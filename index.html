@@ -46,18 +46,15 @@
       <div class="items" style="display:none">
         <script>
         $(document).ready(function () {
-          $("#info").hover(function () {
-              $(".items").slideDown("slow");
+          $("#button").click(function () {
+              $(".items").slideToggle(700, "swing", function() {
+                $(#button).text("Less");
+              });
             });
         });
       </script>
       
       <script>
-      $(document).ready(function () {
-          $("button").click(function () {
-              $(".items").slideUp();
-            });
-        });
       </script>
         <p id="description">A collection of pictures work for various projects</p>
         <ul class="pictures" style="list-style-type: none;">
