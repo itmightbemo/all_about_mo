@@ -5,7 +5,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <!--api-->
       <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Raleway:400,300' rel='stylesheet' type='text/css'>
-      <link rel="stylesheet" type="text/css" href="stylesheet.css">
+      <!--link rel="stylesheet" type="text/css" href="stylesheet.css"-->
       <title>Welcome to my Portfolio</title>
   </head>
   <body>
@@ -24,11 +24,8 @@
           $("#nav-bar").hover(
             function () {
               $("#ulist").fadeIn();
-            },
-            function () {
-              $("#ulist").fadeOut();
-            }
-          );
+            },function () {
+              $("#ulist").fadeOut();});
         });
       </script>
     <div class="heading" id="title">
@@ -45,6 +42,7 @@
       </div>
       <div class="items" style="display:none">
         <script>
+        /*script for showing and hiding actual pagfe content*/
         $(document).ready(function () {
           $("button").click(function () {
               $(".items").slideToggle(1000, function () {
@@ -52,10 +50,8 @@
                       $("button").text("Less");
                   }else{
                     $("button").text("More");
-                  }
-              });
-            });
-        });
+                  } /*end of i-else*/ }); /*end of click(function) */});
+        });/*end of script*/
       </script>
       
       <script>
