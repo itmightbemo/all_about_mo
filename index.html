@@ -23,7 +23,10 @@
         $(document).ready(function () {
           $("#nav-bar").hover(
             function () {
-              $("#ulist").slideToggle(1000,"swing");
+              $("#ulist").fadeIn();
+            },
+            function () {
+              $("#ulist").fadeOut();
             });
         });
       </script>
