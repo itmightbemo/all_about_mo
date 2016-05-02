@@ -47,8 +47,8 @@
         <script>
         $(document).ready(function () {
           $("#button").click(function () {
-              $(".items").slideToggle(700, "swing", function() {
-                $(#button).text("Less");
+              $(".items").slideToggle(700, function() {
+                $("#button").text("Less");
               });
             });
         });
