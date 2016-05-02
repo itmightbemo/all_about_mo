@@ -12,9 +12,9 @@
     <div class="heading_bar">
     <div id="nav-bar">
       <ul id="ulist" style="display:none"> 
-          <li><a href="https://soundcloud.com/isthismoshe/" class="link">Music</li>
-          <li><a href="http://thisisteam.blogspot.ie/" class="link"/>Blog</li>
-          <li><a href="https://www.youtube.com/channel/UCH_OeGFJ9JjWlKZZe-g6ZCQ"/ class="link">Videos</a></li>
+          <li id="menu"><a href="https://soundcloud.com/isthismoshe/" class="link">Music</li>
+          <li id="menu"><a href="http://thisisteam.blogspot.ie/" class="link"/>Blog</li>
+          <li id="menu"><a href="https://www.youtube.com/channel/UCH_OeGFJ9JjWlKZZe-g6ZCQ"/ class="link">Videos</a></li>
       </ul>
       </div>
       </div>
@@ -22,6 +22,9 @@
       <script>
         $(document).ready(function () {
           $("#nav-bar").hover(
+            function() {
+              $("#menu").css("padding-top", "10px");
+            },
             function () {
               $("#ulist").fadeIn();
             },function () {
