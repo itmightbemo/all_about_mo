@@ -48,7 +48,11 @@
         $(document).ready(function () {
           $("button").click(function () {
               $(".items").slideToggle(1000, function () {
-                $("button").text("Less");
+                  if ($('.items').css('display') != 'none'){
+                      $("button").text("Less");
+                  }else{
+                    $("button").text("More");
+                  }
               });
             });
         });
