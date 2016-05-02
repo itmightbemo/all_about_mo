@@ -22,12 +22,16 @@
       <script>
         $(document).ready(function () {
           $("#nav-bar").hover(
-            function () {
-              $("#ulist").fadeIn(200);
-            },
-            function () {
-              $("#ulist").fadeOut(200);
-            });
+            if($("#navbar").css("height","40px")){
+              function () {
+                $("#ulist").fadeIn(200);
+              }
+              
+            }else{
+              function () {
+                $("#ulist").fadeOut(200);
+              });
+            }
         });
       </script>
     <div class="heading" id="title">
