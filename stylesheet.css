@@ -11,6 +11,10 @@ body{
         text-align: center;
 	
 }
+#logo {
+	display: block;
+    margin: 0 auto;
+}
 p{font-size:15px;letter-spacing:1;}
 .items ul{list-style-type:none;
 }
@@ -85,7 +89,9 @@ button{
 
 #content{
 	width:100%;	
-	
+   display: block;
+    margin: 0 auto;
+    text-align:center;
     font-size: 20px;
     font-family: 'Raleway', sans-serif;
     margin-top: ;
