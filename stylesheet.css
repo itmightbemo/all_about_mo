@@ -23,6 +23,7 @@ table{
 }
 td img{
 	width:100%; height:auto;
+	display:block;
 }
 .pictures{
 	margin:0 auto;
