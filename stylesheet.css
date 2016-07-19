@@ -20,6 +20,7 @@ p{font-size:15px;letter-spacing:1;}
 }
 table{
 	width:auto;
+	border-spacing:0px;
 }
 td img{
 	width:100%; height:auto;
