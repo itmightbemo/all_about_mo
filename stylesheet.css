@@ -18,6 +18,9 @@ p{font-size:15px;letter-spacing:1;}
 .items{
 	display:inline-block;
 }
+td{
+	max-width:25px;
+}
 .pictures{
 	margin:0 auto;
 }
