@@ -18,8 +18,11 @@ p{font-size:15px;letter-spacing:1;}
 .items{
 	display:inline-block;
 }
+table{
+	width:100%;
+}
 td img{
-	width:200px;
+	width:100%; height:auto;
 }
 .pictures{
 	margin:0 auto;
