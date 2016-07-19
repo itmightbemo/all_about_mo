@@ -92,7 +92,7 @@ button{
     transition:all 0.7s ease-in-out;}
 div.items{box-shadow:0px -3px 2px rgba(148,148,148, 0.3);width:100%;display:none;}
 #info p{
-	background:white;
+	background:;
 	opacity:0.5;
 	transition: all 0.3s ease-in-out;
 	box-shadow: 0px 0px 2px rgba(148,148,148, 0.3);
